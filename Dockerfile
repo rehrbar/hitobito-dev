@@ -22,5 +22,7 @@ RUN cp Wagonfile.ci Wagonfile && \
         rake db:setup:all
 
 EXPOSE 3000 1080
+
+# -b 0.0.0.0 required to allow external connections
 ENTRYPOINT ["rails"]
 CMD ["server", "-b", "0.0.0.0"]
