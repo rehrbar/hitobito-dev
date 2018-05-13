@@ -1,0 +1,6 @@
+[submodule "hitobito"]
+	path = hitobito
+	url = https://github.com/hitobito/hitobito.git
+[submodule "hitobito_pbs"]
+	path = hitobito_pbs
+	url = https://github.com/hitobito/hitobito_pbs.git
